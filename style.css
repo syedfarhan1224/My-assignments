@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #1e1e1e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.card {
+    background: #333;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.card button {
+    background: #444;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 16px;
+}
+
+.card button:hover {
+    transform: translateY(-3px);
+    background: #555;
+}
+
+.card button:active {
+    transform: translateY(1px);
+}
+
+footer {
+    background: #2e2d2d;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #ccc;
+    margin-top: auto
+}
