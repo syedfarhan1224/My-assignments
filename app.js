@@ -1,53 +1,3 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//   const assignments = [
-//     {
-//       name: "Assignment 1",
-//       description: "Description for Assignment 1",
-//       codeUrl: "https://github.com/user/assignment1",
-//       livePreviewUrl: "https://example.com/assignment1",
-//     },
-//     {
-//       name: "Assignment 2",
-//       description: "Description for Assignment 2",
-//       codeUrl: "https://github.com/user/assignment2",
-//       livePreviewUrl: "https://example.com/assignment2",
-//     },
-//     {
-//       name: "Assignment 3",
-//       description: "Description for Assignment 3",
-//       codeUrl: "https://github.com/user/assignment3",
-//       livePreviewUrl: "https://example.com/assignment3",
-//     },
-//   ];
-
-//   const container = document.getElementById("assignments-container");
-
-//   assignments.forEach((assignment) => {
-//     const card = document.createElement("div");
-//     card.classList.add("card");
-
-//     const title = document.createElement("h2");
-//     title.textContent = assignment.name;
-//     card.appendChild(title);
-
-//     const description = document.createElement("p");
-//     description.textContent = assignment.description;
-//     card.appendChild(description);
-
-//     const codeButton = document.createElement("button");
-//     codeButton.textContent = "View Code";
-//     codeButton.onclick = () => window.open(assignment.codeUrl, "_blank");
-//     card.appendChild(codeButton);
-
-//     const demoButton = document.createElement("button");
-//     demoButton.textContent = "Live Preview";
-//     demoButton.onclick = () => window.open(assignment.livePreviewUrl, "_blank");
-//     card.appendChild(demoButton);
-
-//     container.appendChild(card);
-//   });
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
   const assignments = [
     {
@@ -129,6 +79,40 @@ document.addEventListener("DOMContentLoaded", function () {
       codeUrl: "https://github.com/syedfarhan1224/Stop-Watch-main",
       livePreviewUrl:
         "https://syedfarhan1224.github.io/Stop-Watch-main/?authuser=0",
+    },
+    {
+      name: "Countdown",
+      description:
+        "This project is an attractive countdown timer for Eid ul Azha, showing days, hours, minutes, and seconds remaining until the event. The timer dynamically updates every second and displays Eid Mubarak! when the countdown ends.",
+      codeUrl: "https://github.com/syedfarhan1224/countdown",
+      livePreviewUrl: "https://syedfarhan1224.github.io/countdown/",
+    },
+    {
+      name: "Clock",
+      description:
+        "This project is a digital clock web page that dynamically displays the current time and date with a modern design. It features gradient styling, shadow effects, and updates every second using JavaScript.",
+      codeUrl: "https://github.com/syedfarhan1224/clock",
+      livePreviewUrl: "https://syedfarhan1224.github.io/clock/",
+    },
+    {
+      name: "Guess the Number",
+      description:
+        "Test your luck in this interactive dice game by selecting numbers and matching them against randomly generated results. Track your wins, losses, and turns in a sleek and engaging interface.",
+      codeUrl: "https://github.com/syedfarhan1224/Javascript-game",
+      livePreviewUrl:
+        "https://syedfarhan1224.github.io/Javascript-game/?authuser=0",
+    },
+    // {
+    //   name: "For Loop Basic Excercise",
+    //   description: "",
+    //   codeUrl: "",
+    //   livePreviewUrl: "",
+    // },
+    {
+      name: "JavaScript Alert and Variables",
+      description: "",
+      codeUrl: "https://github.com/syedfarhan1224/javascript",
+      livePreviewUrl: "https://syedfarhan1224.github.io/javascript/?authuser=0",
     },
   ];
 
